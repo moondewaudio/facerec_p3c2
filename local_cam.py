@@ -27,7 +27,7 @@ def request_from_server(img):
     :returns: Returns a dictionary containing label and cofidence.
     """
     # URL or PUBLIC DNS to your server
-    URL = "http://54.190.50.56:8080"
+    URL = "http://54.190.50.56:8080/predict"
     
     # File name so that it can be temporarily stored.
     temp_image_name = 'temp.jpg'
